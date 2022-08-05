@@ -3,7 +3,8 @@ import time
 import schedule
 
 print('Server running')
-schedule.every().day.at("08:00").do(send_articles)
+# AWS server is UTC time, so 12:00 UTC = 8:00 EST
+schedule.every().day.at("12:00").do(send_articles)
 
 while True:
     schedule.run_pending()
