@@ -57,3 +57,4 @@ def send_articles():
     yag.send(bcc=ALL_RECIPIENTS, subject=today, contents=html)
 
     print(fetchTodayNews(ARTICLES_PER_DAY))
+    print('Emails sent!')
