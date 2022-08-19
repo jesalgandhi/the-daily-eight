@@ -6,4 +6,4 @@ The Daily Eight is a set of python scripts that runs on an Amazon AWS EC2 server
 
 # Example of news article
 Below is an image of an article that was sent to a participant's email one morning:
-![Daily Eight Article](assets/example.png)
+![Daily Eight Article](/assets/email page.png)
